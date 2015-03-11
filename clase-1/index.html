@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>React Clase 1</title>
+        <script src="bower_components/react/react.js"></script>
+        <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    
+    <body>
+        <div id="content"></div>
+        <script type="application/javascript">
+            
+            var MyButton = React.createClass({
+                render: function(){
+                    return (
+                        React.createElement(
+                            "button", 
+                            {type:"button", className:"btn btn-primary"},
+                            "My Button"
+                        )
+                    )
+                }
+            });
+            
+            React.render(
+                React.createElement(MyButton, null),
+                document.getElementById("content")
+            );
+            
+        </script>
+    </body>
+</html>

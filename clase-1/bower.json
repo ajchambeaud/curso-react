@@ -1,0 +1,20 @@
+{
+  "name": "clase-1",
+  "version": "0.0.1",
+  "authors": [
+    "ajchambeaud <ajchambeaud@gmail.com>"
+  ],
+  "description": "Fuentes de la clase 1 del curso de React",
+  "keywords": [
+    "reactjs",
+    "curso",
+    "lsl",
+    "utn-fra"
+  ],
+  "license": "GPL",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "react": "~0.12.2"
+  }
+}

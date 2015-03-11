@@ -1,0 +1,7 @@
+Introducción a React
+El flujo de la información en una aplicación react
+React Components
+Virtual DOM
+JavaScript y JSX
+props vs state
+creando nuestros primeros componentes

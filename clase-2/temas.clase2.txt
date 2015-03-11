@@ -1,0 +1,11 @@
+-Composición en React
+-Diseño orientado a componentes
+--Separación de responsabilidades
+-Creando componentes complejos
+--Identificando los componentes de nuestra interfaz
+--Descomponiendo la interfaz en React Components
+--Composición jerarquica
+--Generando una versión estatica de nuestra interfaz con JSX
+--Agregando funcionalidad a cada componente
+--Relaciónes parent-child
+
