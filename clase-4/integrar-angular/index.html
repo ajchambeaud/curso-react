@@ -1,0 +1,26 @@
+<html lang="es" ng-app="app">
+    <head>
+        <title>Clase 4 - ReactJS - Angular</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/react/react.js"></script>
+        <script src="bower_components/ngReact/ngReact.js"></script>
+        
+        <script src="app/main.js"></script>
+        <script src="app/MainController.js"></script>
+        <script src="app/ReactDirectives/DownloadButton.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="container" ng-controller="MainController as main">
+        
+        
+        <h1>Utilizando componentes de React en AngularJS</h1>  
+            
+        <react-component name="DownloadButton" props="main.downloadProps" /> 
+        
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "clase-3",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ajchambeaud/curso-react",
+  "authors": [
+    "ajchambeaud <ajchambeaud@gmail.com>"
+  ],
+  "description": "Clase 3 del curso de React UTN-FRA LSL",
+  "license": "GPL",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "react": "~0.12.2"
+  }
+}
